@@ -411,39 +411,17 @@ h2 {
 }
 
 /********* our skills *********/
-
+.little-description {
+    font-size: 14px;
+}
 .skill-section {
-   
+    color: #333;
     text-align: center;
-    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),url(img/skill.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
+    background: #fff;
 }
 
-.skill-section h2,
-.skill-section h3 {
-    color: #3c4761;
-}
-.skill-section h2::after {
-    background: #dfe8ed;
-}
 
-.skill-section .box {
-    margin-top: 4.5rem;
-}
 
-svg.radial-progress circle {
-    stroke-width: 5;
-}
-svg.radial-progress text {
-    fill: #3c4761;
-    font-size: 1.5rem;
-}
-svg.web-design circle {
-    stroke: #16bec4;
-}
 
 
 
