@@ -349,6 +349,20 @@ h2 {
 
 
 /*** digital-marketing ---- wed-development ****/
+.digital-mkt {
+    overflow: hidden;
+    position: relative;
+}
+
+.digital-mkt:before {
+    background-image: url(../img/meeting.jpg);
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 50.7%;
+}
 
 .single-service-item {
     position: relative;
@@ -364,6 +378,7 @@ h2 {
     position: absolute;
     left: 6px;
     top: 75px;
+    
 }
 
 .single-service-item h3 {
@@ -374,10 +389,15 @@ h2 {
     background-color: #22bbc0;
     color: #fff;
     text-decoration: none;
+    
 }
 
 .single-service-item:hover h3 {
     color: #fff;
+}
+
+.single-service-item:hover.service-icon {
+    color: rgb(243, 243, 243);
 }
 
 .single-service-item:hover:after {
@@ -389,22 +409,6 @@ h2 {
     height: 100%;
     background-color: #22bbc0;
 }
-
-.digital-mkt {
-    overflow: hidden;
-    position: relative;
-}
-
-.digital-mkt:before {
-    background-image: url(../img/meeting.jpg);
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 51.1%;
-}
-
 
 .service-icon-tablecell {
     margin-left: 20px;
@@ -420,9 +424,36 @@ h2 {
     background: #fff;
 }
 
+.skill-section.box h4 {
+    color: #3c4761;
+    margin-top: 40px;
+}
+.skill-section.box {
+    margin-top: 50px;
+}
 
+svg.radial-progress {
+    height: auto;
+    padding: 0px;
+    max-width: 255px;
+    transform: rotate(-90deg);
+    width: 100%;
+}
 
+svg.radial-progress circle {
+    stroke-width: 1;
+    stroke:#22bbc0;
+    height: 200px;
+    width: 200px
 
+    
+}
+
+svg.radial-progress text {
+    fill: #373737;
+    font-size: 13px;
+    font-weight: 700;
+}
 
 
 
