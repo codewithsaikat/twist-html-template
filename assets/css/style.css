@@ -41,10 +41,6 @@ h6 {
     z-index: 9;
 }
 
-.header-area.header-absolute a,
-span.search-icon {
-    color: #fff;
-}
 
 
 .logo {
@@ -71,6 +67,12 @@ span.search-icon {
     display: block;
     padding: 12px;
 }
+
+.header-area.header-absolute a,
+.search-box.search-icon {
+    color: #fff;
+}
+
 
 /* search-box */
 
