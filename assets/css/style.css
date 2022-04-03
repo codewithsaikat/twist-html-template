@@ -777,6 +777,12 @@ h3,
         
         margin: 11px 0;
     }
+
+    /***************** home-2 Hero-area **************/
+
+    .hero-area {
+        background-image: url(../img/hero-bg.jpg);
+    }
        
 
 

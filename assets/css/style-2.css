@@ -52,7 +52,19 @@ h6 {
 
 .main-menu li {
     display: inline-block;
-    position: relative;
+    position: relative
+}
+.main-menu li a {
+    display: block;
+    padding: 12px;
+}
+/* .header-area.header-absolute a,
+.search-box.search-icon {
+    color: #fff;
+} */
+
+.search-icon {
+    margin-top: 16px;
 }
 
 
