@@ -90,7 +90,7 @@ h6 {
 
 .search-box .search-icon {
     position: absolute;
-    left: 30px;
+    left: 29px;
     top: 60%;
     transform: translate(-50%, -50%)
 }
@@ -460,7 +460,7 @@ svg.radial-progress text {
 
 
 
-/* ***black over lay background area ******/
+/* ***green over lay background area ******/
 
 .section-bg-1 {
     background-image: url(../img/cover\ size\ image.jpg)
@@ -782,7 +782,32 @@ h3,
 
     .hero-area {
         background-image: url(../img/hero-bg.jpg);
+        background-size: cover;
+        background-position: center;
+        background-color: #000;
+        padding-top: 180px;
+        padding-bottom: 120px
     }
+
+    .hero-area h3 {
+        color: #333;
+    }
+    .hero-text h2  {
+        color: #fff;
+        font-size: 43px;
+        line-height: 1;
+        margin-bottom: 18px
+    }
+    .hero-area p {
+        font-size: 14px
+    }
+
+    .register-now-form {
+        background: #fff;
+        padding: 30px;
+        border-top: 50px solid #22bac0;
+    }
+
        
 
 
