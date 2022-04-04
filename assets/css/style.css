@@ -90,7 +90,7 @@ h6 {
 
 .search-box .search-icon {
     position: absolute;
-    left: 29px;
+    left: 28px;
     top: 60%;
     transform: translate(-50%, -50%)
 }
@@ -791,6 +791,8 @@ h3,
 
     .hero-area h3 {
         color: #333;
+        font-size: 24px;
+        
     }
     .hero-text h2  {
         color: #fff;
@@ -804,8 +806,27 @@ h3,
 
     .register-now-form {
         background: #fff;
-        padding: 30px;
-        border-top: 50px solid #22bac0;
+        padding: 65px;
+        border-top: 10px solid #22bac0;
+        border-radius: 4px;
+        
+    }
+    .register-now-form span {
+        color: red
+    }
+
+
+    input, button, text-area {
+        padding: 10px;
+        width: 100%;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+    }
+    input[type="submit"] {
+        border: none;
+        background: #0bbbc1;
+        color: #fff;
+        
     }
 
        
