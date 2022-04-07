@@ -860,6 +860,73 @@ h3,
         font-size: 13.5px;
     }
 
+            /****success-plan section ****/
+
+    .success-plan span .ticker-text {
+        display: inline-block;
+        margin-top: 30px;
+    }
+    
+    .success-plan h2 {
+        font-size: 28px;
+        margin-top: 25px;
+        margin-bottom: 32px;
+    }
+    .success-plan p {
+        color: #777777;
+        font-size: 14px;
+    }
+
+    .ticker-text {
+        margin-top: 40px;
+        display: inline-block;
+        background: #303030;
+        color: #fff;
+        padding: 7px 32px;
+        border-radius: 50px;
+        font-size: 14px;
+    }
+
+    .success-plan .boxed-btn {
+        
+            margin-top: 28px;   
+            background: #32edf3;
+            padding: 10px 40px;      
+    }
+
+    .success-plan .margin-80 {
+        margin: 80px;
+    }
+
+    .success-plan h3 {
+        color: #333;
+        font-size: 20px
+    }
+
+        /******* service-box *********/
+
+    .service-box .service-icon {
+        position: relative;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .service-box.service-font:hover {
+        background-color: #fafafa;
+        
+    }
+
+    .service-font h3 {
+        font-size: 20px;
+        margin: 20px 0
+    }
+    .service-icon-tablecell {
+        margin-left: 0px;
+    }
+    .service-box.service-font:hover {
+        padding: 30px 19px;
+    }
+
 
        
 
