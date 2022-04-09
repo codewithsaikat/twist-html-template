@@ -29,6 +29,15 @@ $(document).ready(function () {
     
 
    })
+  
+  $('.team-list-2').slick({
+    autoplay: false,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    dots: true,
+
+   })
 
   
  

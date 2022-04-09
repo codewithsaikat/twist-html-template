@@ -363,7 +363,7 @@ h2 {
     left: 0;
     top: 0;
     height: 100%;
-    width: 50.7%;
+    width: 51%;
 }
 
 .single-service-item {
@@ -905,27 +905,44 @@ h3,
 
         /******* service-box *********/
 
-    .service-box .service-icon {
-        position: relative;
-        text-align: center;
-        width: 100%;
-        margin-bottom: 100px;
-    }
-    .service-box.service-font:hover {
-        background-color: #fafafa;
-        
-    }
+    
 
-    .service-font h3 {
+    .service-box h3 {
         font-size: 20px;
         margin: 20px 0
     }
-    .service-icon-tablecell {
-        margin-left: 0px;
+    .success-plan .service-box .service-icon {
+        position: relative;
+        top: 0;
+        left: 0;
+        line-height: 70px;
     }
-    .service-box.service-font:hover {
-        padding: 30px 19px;
-    }
+
+.service-box {
+    padding: 35px 20px;
+}
+
+    .service-box:hover {
+    background: #fafafa;
+}
+
+ /* Our expart team */
+  .single-team-item-2{
+    background: #fbfbfb;
+    padding: 40px;
+    margin: 20px;
+    text-align: center;
+
+  }  
+ .single-team-item-2 img {
+        height: 100px;
+    width: 100px;
+    border-radius: 50%;
+ }
+
+    
+
+    
 
 
        
