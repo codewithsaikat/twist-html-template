@@ -1,0 +1,101 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  .slide-text h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+    .tile-gallery img {
+    max-width: 320px;
+}
+
+    .footer-area .social-links a {
+    max-width: 28px;
+    height: 30px;
+    font-size: 11px;
+    line-height: 30px;
+}
+    
+}
+/* Tablet & mobile Layout: 768px. */
+@media only screen and (max-width: 991px) { 
+    .main-menu {
+    display: none;
+    }
+    .logo {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+    }
+    .slide-text h2 {
+        font-size: 30px;
+    }
+    .slide-text {
+    padding: 100px 0;
+}
+.space-90 {
+    display: none
+}
+.section-padding {
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0px;
+}
+.single-promo-box {
+    margin-top: 0px;
+    text-align: center;
+}
+.single-promo-box h4 {
+    
+    margin-bottom: 0px;
+}
+.tile-gallery {
+    
+    height: auto;
+    margin-left: 50px;
+}
+.tile-gallery img:nth-child(2) {
+    position: relative;
+    right: auto;
+    top: auto;
+    
+}
+.tile-gallery img:nth-child(3) {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    
+}
+.digital-mkt:before {
+    background-image: url(../img/meeting.jpg);
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 400px;
+    width: 100%;
+}
+.digital-mkt {
+    padding-top: 450px;
+}
+.single-service-item:hover:after {
+    display: none
+}
+
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+} 

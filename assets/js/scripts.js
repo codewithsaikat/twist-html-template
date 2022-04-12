@@ -1,6 +1,7 @@
 $(document).ready(function () {
     $('.homepage-slides').slick({
-       autoplay: true,
+       autoplay: false,
+       dots: true,
     });
 
    $('.team-list').slick({

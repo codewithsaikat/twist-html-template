@@ -84,21 +84,14 @@ h6 {
 .search-box {
     width: 55px;
     height: 55px;
-    border-radius: 50px;
-    background: white;
-    position: relative;
-    transition: .5s;
-    overflow: hidden;
+    margin-top: 10px
+    
 }
 
-.search-box .search-icon {
-    position: absolute;
-    left: 28px;
-    top: 60%;
-    transform: translate(-50%, -50%)
-}
 
-.search-box .search-icon .search {
+
+
+/* .search-box .search-icon .search {
     font-size: 21px;
     cursor: pointer;
     color: #444;
@@ -136,7 +129,7 @@ h6 {
     cursor: pointer;
     font-size: 20px;
     color: #8888;
-}
+} */
 
 
 
@@ -245,32 +238,6 @@ h6 {
 
 .slick-slide img {
     display: inline-block;
-}
-
-
-
-/* developer fix */
-
-/* arrow-size problem */
-.slick-prev:before,
-.slick-next:before {
-    font-size: 25px;
-    font-weight: 700;
-    line-height: 1;
-    color: white;
-
-}
-
-.slick-prev {
-    left: 0;
-    z-index: 999;
-    left: 20%;
-
-}
-
-.slick-next {
-    right: 0;
-    right: 20%;
 }
 
 
@@ -383,27 +350,33 @@ h2 {
     position: absolute;
     left: 6px;
     top: 75px;
+    
 
 }
+
 
 .single-service-item h3 {
     font-size: 20px;
+    color: #333;
+   
+
 }
 
-.single-service-item:hover {
+.single-service-item:hover  {
     background-color: #22bbc0;
     color: #fff;
-    text-decoration: none;
+    
 
 }
 
 .single-service-item:hover h3 {
     color: #fff;
+    
+    
 }
 
-.single-service-item:hover.service-icon {
-    color: rgb(243, 243, 243);
-}
+
+
 
 .single-service-item:hover:after {
     position: absolute;
@@ -1031,12 +1004,12 @@ h6 {
 
 .slick-prev {
     z-index: 999;
-    left: 2%;
+    left: 3%;
 
 }
 
 .slick-next {
-    right: 4%
+    right: 3%
 }
 
 
@@ -1086,7 +1059,7 @@ h6 {
     background: #333;       
     padding: 75px 0;
     
-}
+} 
 
 .footer-area.dark-bg ,.footer-area.dark-bg p ,.footer-area.dark-bg a,.footer-area.dark-bg h5 {
     color: rgb(255, 255, 255)
