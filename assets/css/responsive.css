@@ -82,6 +82,16 @@
 .single-service-item:hover:after {
     display: none
 }
+.black-overlay p {
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+.text-right.mobile-left {
+    text-align: left!important;
+}
+.footer-area .col-md-2 {
+    margin-top: 50px;
+}
 
 }
 
