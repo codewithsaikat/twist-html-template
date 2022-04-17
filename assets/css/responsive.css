@@ -21,7 +21,7 @@
 /* Tablet & mobile Layout: 768px. */
 @media only screen and (max-width: 991px) { 
     .main-menu {
-    display: none;
+      display: none
     }
     .logo {
     font-size: 20px;
@@ -97,7 +97,12 @@
 
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
- 
+ .tile-gallery img {
+    margin-top: 20px;
+}
+.footer-area .col-md-2 {
+    margin-top: 10px;
+}
     
 }
 /* Mobile Layout: 320px. */

@@ -38,10 +38,10 @@ h6 {
 
 .header-area.header-absolute {
     position: absolute;
+    z-index: 9;
     left: 0;
     top: 0;
-    width: 100%;
-    z-index: 9;
+    width: 100%   
 }
 
 
@@ -72,7 +72,7 @@ h6 {
 }
 
 .header-area.header-absolute a,
-.search-box.search-icon {
+ .search-box .search-icon {
     color: #fff;
 }
 
@@ -344,6 +344,12 @@ h2 {
     display: block;
     color: #726f6f;
 
+}
+
+
+a:hover {
+    color: #0056b3;
+    text-decoration:none;
 }
 
 .service-icon {
@@ -761,13 +767,13 @@ h4 {
     font-size: 20px;
     color: #000;
     display: inline-block;
-    margin: 11px 0;
+    margin: 11px 0; 
 }
 
 /***************** home-2 Hero-area **************/
 
 .hero-area {
-    background-image: url(../img/hero-bg.jpg);
+    background-image: url(../img/home-page-2\ cover.jpg);
     background-size: cover;
     background-position: center;
     background-color: #000;
@@ -803,7 +809,7 @@ h4 {
     border-radius: 4px;
 }
 
-.register-now-form h3 {
+.black-overlay .register-now-form h3 {
     margin-top: -20px;
     margin-bottom: 50px;
 }
@@ -897,6 +903,12 @@ input[type="submit"] {
     color: #333;
     font-size: 20px
 }
+ /* about-success-plan-section */
+ .success-plan img {
+         border: 1px solid #333;
+        border-right: 0px;
+        border-radius: 10px;
+ }
 
 /******* service-box *********/
 
@@ -1016,7 +1028,7 @@ h6 {
 /* .black-overlay -2 */
 
 .section-bg-4 {
-    background-image: url(../img/black-image-2.jpg);
+    background-image: url(../img/home-page-2\(2\).jpg);
 }
 
 .black-overlay h3 {
@@ -1091,5 +1103,8 @@ h6 {
     border-color: #0bbbc1;
     color: #111010
 }
+
+   
+
 
 
