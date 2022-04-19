@@ -259,8 +259,9 @@ h6 {
 
 }
 
-h2 {
+.happiness h2 {
     margin-bottom: 40px;
+    color: #333
 }
 
 
@@ -398,6 +399,9 @@ a:hover {
 }
 
 /********* our skills *********/
+.skill h2 {
+    color: #333
+}
 .little-description {
     font-size: 14px;
 }
@@ -473,6 +477,9 @@ svg.radial-progress text {
     opacity: .5;
 
 }
+.black-overlay h2 {
+    font-size: 32px;
+}
 
 .black-overlay p {
     font-size: 13px;
@@ -480,7 +487,7 @@ svg.radial-progress text {
 }
 
 .black-overlay p,
-h3,
+h2,
 .boxed-btn {
     color: #fff;
 }
@@ -497,6 +504,9 @@ h3,
 
 
 /*********** portfolio area ***********/
+.portfolio h2 {
+    color: #333
+}
 
 .portfolio-bg-1 {
     background-image: url(../img/portfolio-1.png);
@@ -587,7 +597,9 @@ h4 {
 }
 
 /********* testimonial-slider section *******/
-
+.testimonial h2 {
+    color: #333
+}
 .no-padding-top {
     padding-top: 0;
 }
@@ -1021,11 +1033,13 @@ input[type="submit"] {
 
 /* .black-overlay -2 */
 
+
+
 .section-bg-4 {
     background-image: url(../img/home-page-2\(2\).jpg);
 }
 
-.black-overlay h3 {
+.black-overlay h2 {
     margin-top: -10px;
     margin-bottom: 10px;
 }
