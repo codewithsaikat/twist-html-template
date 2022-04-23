@@ -287,7 +287,11 @@ h6 {
 
 
 /******* tile-gallery ********/
-
+.tile-gallery {
+    position: relative;
+    height: 675px;
+    margin-left: 20px;
+}
 
 .tile-gallery img {
     border-radius: 5px;
@@ -313,11 +317,7 @@ h6 {
     z-index: 3;
 }
 
-.tile-gallery {
-    position: relative;
-    height: 675px;
-    margin-left: 20px;
-}
+
 
 
 /*** digital-marketing ---- wed-development ****/
@@ -381,9 +381,6 @@ a:hover {
 
 }
 
-
-
-
 .single-service-item:hover:after {
     position: absolute;
     content: "";
@@ -402,6 +399,7 @@ a:hover {
 .skill h2 {
     color: #333
 }
+
 .little-description {
     font-size: 14px;
 }
@@ -477,6 +475,7 @@ svg.radial-progress text {
     opacity: .5;
 
 }
+
 .black-overlay h2 {
     font-size: 32px;
 }
@@ -512,6 +511,18 @@ h2,
     background-image: url(../img/portfolio-1.png);
 }
 
+.portfolio-bg-6 {
+    background-image: url(../img/portfolio-header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.portfolio-bg-7 {
+    background-image: url(../img/projects.details.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
 .portfolio-bg-2 {
     background-image: url(../img/portfolio-2.png);
 }
@@ -524,9 +535,25 @@ h2,
     background-image: url(../img/portfolio-4.png);
 }
 
+.single-portfolio-item.large.portfolio-bg-1 {
+    height: 650px;
+}
+.portfolio-bg-5 {
+    background-image: url(../img/portfolio-5.png);
+    
+}
+.single-portfolio-item.large.portfolio-bg-5 {
+    height: 650px;
+}
+
+
+
 .space-75 {
     height: 75px;
 }
+
+
+
 
 .single-portfolio-item {
     height: 310px;
@@ -590,16 +617,33 @@ h4 {
     margin-top: 12px;
 
 }
-
-
-.single-portfolio-item.large.portfolio-bg-1 {
-    height: 650px;
+.portfolio-filter {
+    margin: 0px 0 50px;
+    font-size: 16px;
+    font-family: 'Zilla Slab', serif;
+    color: #333;
+    font-weight: 700;
+    text-align: center;
+    list-style: none;
 }
+
+.portfolio-filter li {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer
+}
+.portfolio-filter li.active {
+    color:#22babf
+}
+
+
+
 
 /********* testimonial-slider section *******/
 .testimonial h2 {
     color: #333
 }
+
 .no-padding-top {
     padding-top: 0;
 }
@@ -810,7 +854,8 @@ h4 {
 }
 
 .hero-area p {
-    font-size: 15px
+    font-size: 15px;
+
 }
 
 .register-now-form {
@@ -916,8 +961,8 @@ input[type="submit"] {
 }
 
 /* about-success-plan-section */
-.about-plan img {
-    
+.success-plan img {
+
     border-radius: 10px;
     border: 1px solid #333;
     border-right: 0px;
@@ -925,14 +970,17 @@ input[type="submit"] {
 
 /******* service-box *********/
 
-
+.service h2 {
+    color: #333
+}
 
 .service-box h3 {
     font-size: 20px;
-    margin: 20px 0
+    margin: 20px 0;
+
 }
 
-.success-plan .service-box .service-icon {
+.service .service-box .service-icon {
     position: relative;
     top: 0;
     left: 0;
@@ -1050,8 +1098,12 @@ input[type="submit"] {
 }
 
 /***Our Blog-2 section ***/
-.blog-area h2 {
+.margin-bottom-60 {
     margin-bottom: 60px
+}
+
+.blog-area h2 {
+    color: #333
 }
 
 .single-blogbox h5 {
@@ -1140,6 +1192,7 @@ body {
 .about .search-box {
     margin-top: 15px;
 }
+
 .breadcromb-area div {
     color: #fff
 }
@@ -1153,7 +1206,6 @@ body {
     font-weight: 700;
     padding-top: 180px;
     padding-bottom: 130px
-    
 }
 
 .breadcromb-area h2 {
@@ -1180,7 +1232,7 @@ body {
 
 
 .service-icon-2 img {
-  
+
     width: 30px;
     margin-bottom: 15px;
 
@@ -1194,30 +1246,30 @@ body {
     font-size: 12px;
 }
 
- /* our-expart team -about */
+/* our-expart team -about */
 
- .expert-team.margin {
+.expert-team.margin {
     margin: -23px 0px 56px;
 }
 
 /* black-overlay-3 */
 
-     .about-overlay h3 {
+/* .about-overlay h3 {
          font-size: 32px
 
      }
 
      .about-overlay p {
          font-size: 11.5px
-     }
+     } */
 
-     .section-bg-6 {
+.section-bg-6 {
     background-image: url(../img/about-4.jpg.jpg );
 }
 
 
 
-   /***** footer-area-3  *****/
+/***** footer-area-3  *****/
 
 .about-footer ul {
     color: #333;
@@ -1256,8 +1308,64 @@ body {
 }
 
 
-/* about-service-Area */
-
+/* about-Header- service-Area */
 .services-bg-1 {
-    background-image: url(../img/service-home.jpg);
+    background-image: url(../img/service-home.jpg) ;
+}
+
+
+
+/* single-service-description */
+.services-bg-2 {
+    background-image: url(../img/single-service-cover.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.service-description img {
+    height: 500px;
+    width: 100%
+}
+
+.widget {
+    background-color: #fafafa;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.widget .boxed-btn {
+    border-radius: 0;
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    margin-top: 28px;
+}
+
+.nav_menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.widget .nav_menu {
+    padding: 0;
+    background-color: transparent;
+}
+
+.nav_menu li a {
+    background: #fafafa;
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 30px;
+    color: #333;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+}
+
+.nav_menu li a:hover {
+    background: #22babf;
+    color: #fff;
+}
+.service-description h3 {
+    margin-top: 45px;
 }
