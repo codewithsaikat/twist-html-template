@@ -12,8 +12,9 @@ body {
 
 ;
 
-/* a:hover, a:focus {text-decoration: none;}
-input:focus, button:focus, textarea:focus {outline: none} */
+ a:hover, a:focus {text-decoration: none;}
+input:focus, button:focus, textarea:focus {outline: none}
+img {max-width: 100%; height: auto} 
 
 
 
@@ -163,7 +164,7 @@ h6 {
     background-color: #333;
 }
 
-.single-slide-item:after {
+ .single-slide-item:after {
     position: absolute;
     top: 0;
     left: 0;
@@ -237,7 +238,7 @@ h6 {
 
 .slick-slide img {
     display: inline-block;
-}
+} 
 
 
 /* happiness does not come from */
@@ -548,6 +549,7 @@ h2,
 
 
 
+
 .space-75 {
     height: 75px;
 }
@@ -636,6 +638,20 @@ h4 {
     color:#22babf
 }
 
+.space-70 {
+    height: 70px;
+}
+.space-50 {
+    height: 50px
+}
+
+.single-portfolio h3 {
+    font-size: 24px
+}
+
+.single-portfolio p {
+    font-size: 14px;
+}
 
 
 
@@ -681,7 +697,7 @@ h4 {
 
 
 
-/*****our team web slider8****/
+/*****our team web slider****/
 
 .section-bg-2 {
     background-image: url(../img/testimonial-bg.jpg);
@@ -739,6 +755,29 @@ h4 {
     font-family: 'Noto Sans', sans-serif;
     margin-top: 5px;
 }
+
+
+ /* Our - testimonial- Expert Team   */
+
+.testimonials-area .single-testimonial-item {
+    box-shadow: 0 0 4px #ddd;
+    border: 2px solid transparent
+}
+
+.section-padding.testimonials-area {
+    padding: 50px 100px;
+}
+
+.testimonials-area .single-testimonial-item:hover {
+    border: 2px solid #0bbbc1;
+    box-shadow: 0 0 0 #ddd;
+}
+
+
+
+
+
+
 
 /********* Logo carousel *********/
 .no-padding-bottom {
@@ -995,7 +1034,7 @@ input[type="submit"] {
     background: #fafafa;
 }
 
-/* Our expart team */
+/* our expart team */
 
 
 .export-team .margin {
@@ -1021,6 +1060,18 @@ input[type="submit"] {
     box-shadow: 0 0 0 #ddd;
 
 }
+
+.team-3 {
+        padding: 50px 100px
+}
+
+.team-3 .single-team-item-2 img {
+    height: auto;
+    width: 100px;
+    border-radius: 50%;
+}
+
+
 
 
 
@@ -1077,6 +1128,9 @@ input[type="submit"] {
 .slick-next {
     right: 3%
 }
+
+
+
 
 
 /* .black-overlay -2 */
@@ -1246,7 +1300,7 @@ body {
     font-size: 12px;
 }
 
-/* our-expart team -about */
+/* Our-Expert team -about */
 
 .expert-team.margin {
     margin: -23px 0px 56px;
@@ -1329,7 +1383,7 @@ body {
 
 .widget {
     background-color: #fafafa;
-    padding: 30px;
+    padding: 35px;
     margin-bottom: 30px;
 }
 
@@ -1369,3 +1423,99 @@ body {
 .service-description h3 {
     margin-top: 45px;
 }
+
+
+/* Team-area */
+
+.team-bg-1 {
+    background-image: url(../img/team-cover.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+    /* faqs-widget */
+
+    .faqs h3 {
+        font-size: 24px;
+        
+    }
+
+    .faqs h2 {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+
+
+    .faqs .nav_menu  {
+        margin-bottom: 40px;
+        padding: 0px;
+        background-color: transparent;
+    }
+
+    .faqs .widget {
+        padding: 25px;
+    }
+
+    .twist-faqs .btn.btn-link {
+        font-size: 16px;
+        color: #333;
+        font-weight: 700;
+        text-align: left;
+        text-decoration: none;
+
+    }
+
+    .twist-faqs h3 {
+       
+    }
+
+    .card {
+       
+        border: none;    
+        margin-bottom: 15px;
+        box-shadow: 0px 1px 5px #d5d4d4;
+       
+        
+    }
+
+    .card-header {
+        padding: 0.50rem 1.25rem;
+       
+        background-color: rgba(0,0,0,.03);
+        border-bottom: none;
+        
+        
+    }
+
+    .faqs p {
+        font-size: 14px
+    }
+    .card-body {
+        background-color: rgba(0,0,0,.03);
+    }
+    
+
+    .twist-faqs button {
+        position: relative
+    }
+    .twist-faqs button:after {
+        content: "+";
+        position: absolute;
+        right: 0;
+        background: #049b93;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+        color: #fff;
+        font-size: 26px;
+        line-height: 23px;
+
+    }
+    .twist-faqs button[aria-expanded="true"]:after {
+        content: "-"
+    }
+    
+   
+
+    
