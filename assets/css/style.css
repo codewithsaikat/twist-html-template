@@ -1543,6 +1543,7 @@ body {
 }
  .single-blog-post {
      margin-bottom: 32px;
+     background-color: #fdfdfd;
  }
 
  .blog-excerpt {
@@ -1564,23 +1565,87 @@ body {
     margin-top: 20px;
 }
 a.blog-readmore-btn {
-    font-size: 14px;
+    font-size: 12px;
+    font-family: ZillaSlab;
+    font-weight: 700;
     
 }
 
-li.page-item {
-    padding: 4px;
-    
-    
-}
-li.page-item .page-link {
-    border-radius: 50%;
-    
-}
-
+  
 .page-item:first-child .page-link {
-    margin-left: 0;
     
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-radius: 50%;
+    
+}
+
+.page-item:last-child .page-link {
+    
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-radius: 50%;
+
+}
+
+.pagination li a.page-link {
+    font-family: ZillaSlab;
+    font-weight: 700;
+    line-height: 30px;
+    color: #333;
+    border: none;
+    font-size: 14px;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    background-color: #f7fcfc8a;
+    text-align: center;
+    margin: 5px;
+}
+    
+
+.pagination li a.page-link:hover {
+    color: #fff;
+    background-color: #22bac0;
+}
+
+.blog-section .widget {
+    padding: 20px;
+    background-color: transparent;
+    margin-bottom: none;
+}
+.search-widget button {
+    
+    background-color: transparent;
+    border: none;
+    color: #333;
+}
+.search-widget input[type="search"] {
+   
+    position: relative;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none
+   
+}
+
+.search-widget button[type="submit"] {
+    position: absolute;
+    left: 126px;
+    top: 3px;
+}
+
+.search-widget form {
+    box-shadow: 0px 1px 2px hsl(0, 3%, 61%);
+}
+
+.search-widget {
+    margin-top: -15px;
+    margin-bottom: -17px;
+}
+
+.blog-section .widget h3 {
+    font-size: 24px
 }
 
 
