@@ -8,6 +8,8 @@ body {
     position: relative;
     line-height: 1.8;
     box-sizing: border-box;
+    margin: 0;
+	padding: 0;
 }
 
 ;
@@ -51,6 +53,10 @@ h6 {
     margin-top: 10px;
 }
 
+/* dropdown */
+.main-menu {
+    background-color: rgba(19, 19, 20, 0.137); 
+}
 .main-menu ul {
     margin: 0;
     padding: 0;
@@ -60,15 +66,52 @@ h6 {
 
 }
 
-.main-menu li {
+.main-menu ul li {
     display: inline-block;
     position: relative;
+    background-color: rgba(19, 19, 20, 0.137); 
 }
 
-.main-menu li a {
+.main-menu ul li a {
     display: block;
-    padding: 12px;
+    padding: 0 20px;
+    line-height: 60px;
+	text-decoration:none;color:#FFF
 }
+
+.main-menu a:hover { 
+	background-color: rgba(19, 19, 20, 0.137); 
+    
+}
+
+.main-menu ul ul {
+	display: none;
+	position: absolute; 
+	top: 60px; 	
+}	
+
+.main-menu ul li:hover > ul {
+	display:inherit;
+}	
+
+.main-menu ul ul li {
+	width:230px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+.main-menu ul ul ul li {
+	position: relative;
+	top:-60px; 
+	left:230px;
+}
+
+
+
+li > a:after { content:  ' ▼'; } 
+
+ li > a:only-child:after { content: ''; } 
 
 .header-area.header-absolute a,
 .search-box .search-icon {
