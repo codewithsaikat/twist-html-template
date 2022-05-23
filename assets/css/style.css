@@ -16,8 +16,6 @@ body {
 input:focus, button:focus, textarea:focus {outline: none}
 img {max-width: 100%; height: auto} 
 
-
-
 h1,
 h2,
 h3,
@@ -1679,6 +1677,6 @@ ul.thumb-posts {
 }
 
 
-    /*  blog-details-section */
+    /*      blog-details-section */
 
     
