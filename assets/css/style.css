@@ -65,7 +65,7 @@ h6 {
 
 .header-area.header-absolute a,
 .search-box .search-icon {
-    color: #000;
+    color: #fff;
 }
 
 
@@ -89,6 +89,7 @@ h6 {
     position: relative;
     border: 1px solid rgba(0, 0, 0, 0.137); 
     display: inline-block;
+    background-color: #1e3a55;
    
    
 }
@@ -108,16 +109,19 @@ h6 {
     .main-menu ul li ul {
         position: absolute;
         left: 0;
-        background-color:white;
+        /* background-color:white; */
         transition: 0.3s ease;
         visibility: hidden;
         opacity: 0;
     }
 
-    .main-menu ul li:hover > ul {
+    .main-menu ul li:hover > ul   {
         visibility: visible;
         opacity: 1;
     }
+
+    
+
 
     .main-menu ul li> ul li:hover >ul
      {
@@ -137,6 +141,46 @@ h6 {
         
     }
 
+    
+    
+         /* Mega-menu  */
+
+         .main-menu li.mega-menu h5 {
+             color: #fff
+         }
+
+         .main-menu li.mega-menu {
+            position: static;
+        }
+
+        
+
+         .main-menu li.mega-menu ul li    {
+            
+            width: 100%;
+            display: inline-flex;
+            
+        } 
+
+        .main-menu li.mega-menu ul   {
+           
+            
+            width: 100%;
+            
+            
+        } 
+
+        .main-menu li.mega-menu:hover ul {
+            opacity: 1;
+            visibility: visible;
+        }
+
+  
+
+
+
+      
+       
 
 
 /* .main-menu a:hover { 
