@@ -140,7 +140,7 @@ h6 {
          /* Mega-menu  */
 
           .main-menu li.mega-menu h5 {
-             color: #fff
+              color:#13e2d8
          }
 
          .main-menu li.mega-menu {
@@ -163,6 +163,10 @@ h6 {
             margin: 0 82px;
         }
 
+        .main-menu li.mega-menu ul li a:hover {
+            background: none;
+            color:#13e2d8
+        }
         
 
          .main-menu li.mega-menu:hover ul {
