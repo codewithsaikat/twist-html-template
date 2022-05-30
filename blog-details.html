@@ -81,10 +81,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8">
-                        <figure class="figure">
-                            <img src="assets/img/blog-details.jpg" class="figure-img img-fluid rounded"
-                                alt="A generic square placeholder image with rounded corners in a figure.">
-                        </figure>
+                        <div class="post-featured-content">
+                            <img src="assets/img/blog-details.jpg" alt="">
+                        </div>
                         <h3 class="article-title">May indulgence difficulty ham can put especially.</h3>
 
                         <div class="entity-content">
@@ -133,7 +132,7 @@
                             </div>
                         </div>
                         <div class="comments-list">
-                            <h3 class="comments-title">comments(02)</h3>
+                            <h3 class="comments-title">Comments(02)</h3>
                             <ul class="comments">
                                 <li class="comment">
                                     <img src="assets/img/blog-comments-2.png" alt="">
@@ -143,7 +142,7 @@
                                             <p class="date">April 25, 2017</p>
                                         </div>
                                         <div>
-                                            <a href="" class="comment-reply-btn">reply</a>
+                                            <a href="" class="comment-reply-btn">Reply</a>
                                         </div>
                                        
                                     </div>
@@ -157,7 +156,7 @@
                                             <p class="date">April 21, 2017</p>
                                         </div>
                                         <div>
-                                            <a href="" class="comment-reply-btn">reply</a>
+                                            <a href="" class="comment-reply-btn">Reply</a>
                                         </div>
                                         
                                     </div>
@@ -168,7 +167,29 @@
                         </div>
 
 
+                        <div class="comment-form">
+                            <h3>Leave a reply</h3>
+                            <form action="single-post.html">
+                                <div class="row">
+                                    
+                                    <div class="col-md-6">
+                                        <input type="text" placeholder="Your Name">
+                                    </div>
+                                    
+                                    <div class="col-md-6">
+                                        <input type="email" placeholder="Your Email">
+                                    </div>
+                                </div>
+
+                                <p><textarea name="comment" id="comment" placeholder="write your massage" cols="30" rows="10"></textarea></p>
+                                <input type="submit" value="post comment">            
+                            </form>
+
+                        </div>
+
                     </div>
+
+                    <!-- widget -->
 
                     <div class="col-md-4">
                         <div class="widget">
@@ -190,6 +211,7 @@
                                 <li><a href="">Web-Development</a></li>
                             </ul>
                         </div>
+                                <!-- thumb-area -->
 
                         <div class="thumb-area">
                             <h3>Recent News</h3>

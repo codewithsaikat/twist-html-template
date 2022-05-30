@@ -1719,7 +1719,9 @@ a.blog-readmore-btn {
 .blog-section .widget {
     padding: 0px;
     background-color: transparent;
-    margin-bottom: none;
+    margin-bottom: 60px;
+    margin-top: 10px;
+
 }
 
 .search-widget button {
@@ -1732,7 +1734,7 @@ a.blog-readmore-btn {
 .search-widget input[type="search"] {
 
     position: relative;
-    padding: 10px 20px;
+    padding: 14px 20px;
     font-size: 14px;
     border: none
 }
@@ -1740,17 +1742,21 @@ a.blog-readmore-btn {
 .search-widget button[type="submit"] {
     position: absolute;
     left: 140px;
-    top: -5px
+    top: 12px
 }
 
 .search-widget form {
-    box-shadow: 0px 1px 2px hsl(0, 3%, 61%);
-    margin-bottom: 50px;
+    box-shadow: 0px 0.5px 4px hsl(0deg 1% 95%);
+    margin-bottom: 60px;
+    border-radius: 2%;
+    margin-top: 15px;
 }
 
 
+
 .blog-section h3 {
-    font-size: 24px
+    font-size: 24px;
+    margin-bottom: 27px;
 }
 
 ul.thumb-posts {
@@ -1768,7 +1774,7 @@ ul.thumb-posts {
 
 .thumb-posts li:not(:last-child) {
     border-bottom: 1px solid #e4e4e4;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 }
 
 .thumb-posts .align-left {
@@ -1777,7 +1783,7 @@ ul.thumb-posts {
 }
 
 .thumb-posts a {
-    color: #333
+    color: rgb(32, 32, 32)
 }
 
 .thumb-posts h4 {
@@ -1786,7 +1792,239 @@ ul.thumb-posts {
 
 .thumb-area h3 {
     margin-bottom: 40px;
+    font-size: 21px;
+    color: #4a4646;
 }
 
 
-/*      blog-details-section */
+/* blog-details-section */
+
+.post-featured-content {
+    margin-bottom: 70px;
+}
+
+.entity-content p {
+    font-size: 14px;
+    margin-bottom:17px
+}
+
+blockquote {
+    margin: 31px 80px;
+    font-size: 14px;
+    background-color: #fbfbfb;
+    padding: 25px 55px;
+}
+
+.entity-content {
+    margin-bottom: 70px;
+}
+
+.post-share {
+    margin-bottom: 60px;
+}
+
+.post-share a {
+       background-color: #0056b3;
+        color: #fff;
+        padding: 12px 26px;
+        border-radius: 51px;
+        margin-right: 10px;   
+}
+
+.post-share a svg {
+    margin-right: 14px;
+}
+
+.post-share a.twitter-share-btn {
+    background-color: #28c8f0;
+}
+
+.post-share a.pinterest-share-btn {
+    background-color: #d6061e;
+}
+
+ .author-details h4 {
+        color: #333;
+        font-size: 16px;
+    }
+
+    .author-details p {
+        font-size: 13px;
+    }
+
+    .author-details {
+        margin-bottom: 55px;
+    }
+
+    h3.comments-title {
+        font-size: 23px;
+        position: relative;
+        margin-bottom: 50px;
+    }
+
+    h3.comments-title:after {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 3px;
+        width: 50px;
+        content: "";
+        background-color: #28c8f0;
+        margin-bottom: -5px;
+    }
+
+    ul.comments {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    .comments-meta.d-flex {
+        
+        justify-content: space-between;
+    }
+
+    ul.comments li.comment {
+        background: #fbfbfa;
+        padding: 28px;
+        margin-bottom: 33px;
+        position: relative;
+        padding-left: 110px;
+    }
+    li.comment img {
+        position: absolute;
+        left: 30px;
+        top: 30px;
+        border-radius: 50%;
+        height: 57px;
+    }
+
+    .comments-meta h5 {
+        margin-bottom: 3px;
+        font-size: 16px;
+    }
+    .comments-meta p {
+        font-size: 12px;
+    }
+
+    a.comment-reply-btn {
+        font-size: 16px;
+        color: #333;
+        font-weight: 700;
+        font-family: ZillaSlab Bold;
+    }
+    a.comment-reply-btn:hover {
+        color: #04d198;
+    }
+
+    .comment-form h3:after {
+        position: absolute;
+        left: 13px;    
+        height: 3px;
+        width: 63px;
+        content: "";
+        background-color: #28c8f0;
+        
+        margin-top: 38px;
+        
+    }
+
+    .comments-list {
+        margin-bottom: 70px;
+    }
+
+    .comment-form h3 {
+        margin-bottom: 71px;
+    }
+
+    .comment-form input[type=text], .comment-form input[type=email] {
+        padding: 10px;
+        border: 1px solid #ddd;
+        margin-bottom: 30px;
+    }
+    textarea#comment {
+        width: 100%;
+        border: 1px solid #ddd;
+        padding: 10px;
+        height: 140px
+    }
+
+    .comment-form input[type="submit"] {
+        width: 20%;
+    }
+
+
+    /* contact page */
+
+    .contact-box {
+        background-image: url(../img/tree-2.jpg);
+        background-size: cover;
+        background-position: center;
+        background-color: #112e2f;
+        position:relative;
+        z-index: 2;
+        padding: 105px 63px;
+    }
+
+    .contact-box:after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        content: "";
+        background-color: #112e2f;
+        z-index: -1;
+        opacity: .85;
+    }
+
+    .contact-box, .contact-box h3, .contact-box h2 {
+        color: #fff;
+    }
+
+    .contact-box h2 {
+        font-size: 24px;
+        margin-bottom: 43px;
+    }
+
+    .single-contact-info {
+        font-size: 12px;
+        margin-bottom: 25px;
+    }
+
+    .single-contact-info h3 {
+        font-size: 16px;
+    }
+
+    .single-contact-info svg {
+        margin-right: 14px;
+    }
+
+    /* google map api */
+
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+    
+ }
+
+ 
+
+ .map h1 {
+  
+    color:#000;
+    
+ }
+
+ .map iframe {
+     
+     width: 100%;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;  
+     flex-direction: column;
+     filter: invert(100%)
+
+ }
