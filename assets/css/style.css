@@ -147,10 +147,25 @@ h6 {
             position: static;
         }
 
-        .main-menu li.mega-menu ul    {
+        .main-menu li.mega-menu > ul    {
               
-            width: 100%;       
-        } 
+            width: 100%;
+            padding: 28px 0px;
+            background-color: #1e3a55;
+        }
+               
+        .main-menu li.mega-menu ul ul {
+            top: 0;
+            left: 0;
+        }
+
+        .main-menu li.mega-menu:hover ul ul  {
+            opacity: 1;
+            visibility: visible;
+            position: relative;
+            
+        }
+         
 
           .main-menu li.mega-menu ul li    {
             
@@ -158,10 +173,7 @@ h6 {
             display: inline-flex;
             justify-content: space-around;          
         } 
-
-        .main-menu li.mega-menu ul li a {
-            margin: 0 82px;
-        }
+             
 
         .main-menu li.mega-menu ul li a:hover {
             background: none;
@@ -169,10 +181,7 @@ h6 {
         }
         
 
-         .main-menu li.mega-menu:hover ul {
-            opacity: 1;
-            visibility: visible;
-        }  
+         
   */
 
 
@@ -1022,6 +1031,11 @@ h4 {
     color: red
 }
 
+.register-now-form input[type="submit"] {
+    width: 41%;
+    padding: 6px 21px;
+}
+
 input,
 button,
 text-area {
@@ -1354,7 +1368,10 @@ body {
 
 .breadcromb-bg-1 {
     background-image: url(../img/about.home-bg.jpg);
+    background-size: cover;
+    background-position: center;
 }
+
 
 .breadcromb-area {
     font-size: 14px;
@@ -2005,16 +2022,12 @@ blockquote {
  *{
      margin: 0;
      padding: 0;
-     box-sizing: border-box;
-    
+     box-sizing: border-box;   
  }
-
- 
 
  .map h1 {
   
-    color:#000;
-    
+    color:#000;   
  }
 
  .map iframe {
@@ -2026,5 +2039,25 @@ blockquote {
      justify-content: center;  
      flex-direction: column;
      filter: invert(100%)
-
  }
+
+
+        /* Error-page */
+
+
+.error h1 {
+
+    font-size: 60px;
+    color: #0bbbc1;
+    text-shadow: 3px 2px #0f7a7a;
+}
+
+ .error p {
+      font-size: 14px;
+    }
+
+    input[type="submit"] {
+        width: 13%;
+        padding: 6px 21px;
+    }
+
