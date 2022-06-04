@@ -60,7 +60,7 @@ h6 {
 .logo {
     font-size: 20px;
     font-weight: 700;
-    margin-top: 10px;
+    
 }
 
 .header-area.header-absolute a,
@@ -148,7 +148,7 @@ h6 {
     position: static;
 }
 
-.main-menu li.mega-menu>ul {
+.main-menu li.mega-menu ul {
 
     width: 100%;
     padding: 28px 0px;
@@ -432,6 +432,8 @@ h6 {
 
 .digital-mkt:before {
     background-image: url(../img/meeting.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     content: "";
     position: absolute;
     left: 0;
@@ -893,7 +895,7 @@ h4 {
     padding-bottom: 0;
 }
 
-.logo-carousel {}
+
 
 .slick-slide.single-logo-item img {
     width: 150px;
@@ -1031,7 +1033,7 @@ h4 {
 }
 
 .register-now-form input[type="submit"] {
-    width: 41%;
+    width: 44%;
     padding: 6px 21px;
 }
 
@@ -1076,10 +1078,15 @@ input[type="submit"] {
     margin-top: 30px;
 }
 
-.success-plan h2 {
+/* .success-plan h2 {
     font-size: 28px;
     margin-top: 25px;
     margin-bottom: 32px;
+} */
+
+.success-plan h3 {
+    font-size: 26px;
+    margin-top: 45px;
 }
 
 .success-plan p {
@@ -1122,7 +1129,11 @@ input[type="submit"] {
 
 /******* service-box *********/
 
-/* .service h2 {
+.success-plan .service-box {
+    padding: 0px 0px;
+ }
+
+ .service h2 {
     color: #333
 }
 
@@ -1145,8 +1156,8 @@ input[type="submit"] {
 
 .service-box:hover {
     background: #fafafa;
-} */
-
+} 
+ 
 
 
 
