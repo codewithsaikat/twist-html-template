@@ -1,4 +1,9 @@
 $(document).ready(function () {
+
+  $('#main-nav').slicknav({
+    prependTo: '.mobile-menu-wrap'
+  });
+
     $('.homepage-slides').slick({
        autoplay: false,
        dots: true,

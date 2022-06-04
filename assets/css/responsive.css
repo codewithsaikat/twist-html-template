@@ -130,9 +130,6 @@
      .main-menu {
          display: none;
      }
-
-
-
      .slide-text h2 {
 
          font-size: 30px;
@@ -352,6 +349,49 @@
      .comment-form input[type="submit"] {
          width: 50%;
      }
+
+     /* Slick-Nav */
+
+     .slicknav_menu {
+        font-size: inherit;
+        background: none;
+        padding: 0;
+        position: absolute;
+    }
+
+    .slicknav_btn {
+        margin: 0;
+        background: none;
+        float: none;
+        padding: 17px 0
+    }
+
+    .slicknav_menu .slicknav_menutxt {
+        display: none;
+    }
+
+    .slicknav_menu .slicknav_icon {
+        margin: 0;
+    }
+
+    .slicknav_nav {
+        background-color: #23bbc0;
+        width: 200px;
+    }
+
+    .slicknav_menu a.slicknav_item.slicknav_row {
+        margin: 0;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    .slicknav_nav .slicknav_row:hover ,.slicknav_nav a:hover {
+        background-color: #333;
+        border-radius: 0;
+        text-decoration: none;
+        
+    } 
+
 
 
 
