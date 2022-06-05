@@ -1,7 +1,8 @@
 $(document).ready(function () {
 
   $('#main-nav').slicknav({
-    prependTo: '.mobile-menu-wrap'
+    prependTo: '.mobile-menu-wrap',
+    allowParentLinks: true
   });
 
     $('.homepage-slides').slick({
