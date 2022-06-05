@@ -1,3 +1,12 @@
+// (function ($) {
+//   "use strict";
+
+//   jQuery(window).load(function(){
+
+//   });
+// }(jQuery));
+
+
 $(document).ready(function () {
 
   $('#main-nav').slicknav({
@@ -158,6 +167,8 @@ let search = document.querySelector(".search-icon");
 search.onclick = function () {
   document.querySelector(".search-box").classList.toggle('active');
 }
+
+
 
 
 

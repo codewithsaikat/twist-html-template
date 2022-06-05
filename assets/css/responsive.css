@@ -9,11 +9,13 @@
 
 /* Medium Layout: 1280px. */
  @media only screen and (min-width: 992px) and (max-width: 1200px) {
-
+    /* slick-nav */
     .main-menu ul li {
         
         width: 84px;
-    }    
+    } 
+    
+    /* index.html */
 
      .slide-text h2 {
 
@@ -433,6 +435,8 @@
  /* Tablet Layout: 768px. */
  @media only screen and (min-width: 768px) and (max-width: 991px) {
 
+    /* slick-nav */
+    
     .slicknav_nav ul ul {
         width: 100%;
     }
@@ -441,6 +445,7 @@
         display: initial;
     }
 
+        /* index.html */
 
      .tile-gallery img {
          height: 300px;
